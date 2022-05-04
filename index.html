@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script type='text/javascript' src='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/js/bundles/4.20.0/compiled.0.min.js?ver=4.20.0' id='mdb-js2-js'></script>
+    <script>  $(document).ready(function() {
+        $('.treeview-colorful').mdbTreeview();
+      });   </script>
+
+    <link rel="stylesheet" id="compiled.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/compiled-4.20.0.min.css?ver=4.20.0" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+</head>  
+   
+   <body>
+       <div >
+<div id="tree" style="position:absolute; width: 25%; height: 100%; overflow: scroll">
+    <div class="treeview-colorful w-20 border border-secondary mx-4 my-4" >
+        <h6 class="pt-3 pl-3" id="tittle">Titulo threeview</h6>
+        <ul class="treeview-colorful-list mb-3">
+          <li class="treeview-colorful-items">
+            <a   class="treeview-colorful-items-header" onclick="load('Rama1T')">
+              <i class="fas fa-plus-circle"></i>
+              <i class="far fa-envelope-open ic-w mx-1" ></i>  
+              <span id="Rama1T" >Titulo Rama</span>
+            </a>
+            <ul class="nested">
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja1T')" >
+                    <i class="far fa-bell ic-w mr-1"></i> 
+                    <a id="Hoja1T">Titulo Hoja</a> 
+                </div>
+              </li>
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja2T')">
+                    <i class="far fa-address-book ic-w mr-1"></i>
+                    <a id="Hoja2T"> Titulo Hoja</a>
+                </div>
+              </li>
+              <li class="treeview-colorful-items">
+                <a class="treeview-colorful-items-header" onclick="load('Hoja3T')">
+                  <i class="fas fa-plus-circle"></i>
+                  <i class="far fa-calendar-alt ic-w mx-1"></i>
+                  <span id="Hoja3T">Titulo hoja</span>
+                </a>
+                <ul class="nested">
+                  <li>
+                    <div class="treeview-colorful-element" onclick="load('SubHoja1T')">
+                    <i class="far fa-clock ic-w mr-1"></i>
+                    <a id="SubHoja1T">Titulo SubHoja</a></div>
+                  </li>
+                  <li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="treeview-colorful-items">
+            <a class="treeview-colorful-items-header" onclick="load('Rama2T')">
+              <i class="fas fa-plus-circle"></i>
+              <i class="far fa-folder-open ic-w mx-1"></i>
+              <span id="Rama2T" >Titulo Rama</span>
+            </a>
+            <ul class="nested">
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja4T')">
+                <i class="far fa-folder-open ic-w mr-1"></i>
+                <a id="Hoja4T">Titulo Hoja</a>
+            </div>
+              </li>
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja5T')">
+                <i class="far fa-folder-open ic-w mr-1"></i>
+                <a id="Hoja5T">Titulo Hoja</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="treeview-colorful-items">
+            <a class="treeview-colorful-items-header" onclick="load('Rama3T')">
+              <i class="fas fa-plus-circle"></i>
+              <i class="far fa-gem mx-1"></i>
+              <span id="Rama3T" >Titulo Rama</span>
+            </a>
+            <ul class="nested">
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja6T')">
+                <i class="fas fa-pepper-hot ic-w mr-1"></i>
+                <a id="Hoja6T">Titulo Hoja</a></div>
+              </li>
+              <li>
+                <div class="treeview-colorful-element" onclick="load('Hoja7T')">
+                <i class="far fa-eye ic-w mr-1"></i>
+                <a id="Hoja7T">Titulo Hoja</a></div>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+ 
+    </div>
+</div>
+      <div class="container" style="display: inline-block; border: 2px solid black; height: 400px; width: 600px; margin-left: 500px; margin-top: 23px;">
+          <div class="section">
+          <table id="tab" >
+             
+              <thead>
+              <tr>
+                  <th style="font-size: x-large;">Atributo</th>
+                  <th style="font-size: x-large;">Dato</th>
+              </tr>
+            </thead>
+            <tbody id="LoadTable">
+            </tbody>
+          </table>
+        </div>
+      </div>
+       
+    </div>
+    <!-- End your project here-->
+  </body>
+  <script src="commons.js"></script>
+</html>
