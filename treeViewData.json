@@ -1,137 +1,190 @@
 {
- "temas desarrollados":
+ "temas_desarrollados":
  [
     {
         "codigo":"01",
         "titulo":"Sunat Aduanas",
-        "order":"1"
+        "order":"1",
+        "parent":"temas desarrollados",
+        "chldren":true
     },
 
     {
         "codigo":"02",
         "titulo":"Prevencion del Lavado de Activos y Financiamiento del Terrorismo",
-        "order":"2"
+        "order":"2",
+        "parent":"temas desarrollados",
+        "chldren":true
+
     },
     {
         "codigo":"03",
         "titulo":"Sunat - Tributos Internos",
-        "order":"3"
+        "order":"3",
+        "parent":"temas desarrollados",
+        "chldren":true
     },
     {
         "codigo":"04",
         "titulo":"Procedimiento Administrativo General",
-        "order":"4"
+        "order":"4",
+        "parent":"temas desarrollados",
+        "chldren":true
     },
     {
         "codigo":"05",
         "titulo":"Codigo Tributario",
-        "order":"5"
+        "order":"5",
+        "parent":"temas desarrollados",
+        "chldren":true
     },
 
     {
         "codigo":"0102",
         "titulo":"Normas Aduaneras",
-        "order":"1"
+        "order":"1",
+        "parent":"01",
+        "chldren":true
     },
     {
         "codigo":"0103",
         "titulo":"Importaciones",
-        "order":"2"
+        "order":"2",
+        "parent":"01",
+        "chldren":true
     },
     {
         "codigo":"0104",
         "titulo":"Exportaciones",
-        "order":"3"
+        "order":"3",
+        "parent":"01",
+        "chldren":true
     },
     {
         "codigo":"0218",
         "titulo":"Sistema Notificacion Electronica UIF - SISNE UIF",
-        "order":"0"
+        "order":"0",
+        "parent":"02",
+        "chldren":true
     },
     {
         "codigo":"0205",
         "titulo":"Creacion UIF-PERU",
-        "order":"1"
+        "order":"1",
+        "parent":"02",
+        "chldren":true
     },
     {
         "codigo":"0201",
         "titulo":"SPLA/FT - Prevencion del Lavado de Activos y Financiamiento del Terrorismo",
-        "order":"2"
+        "order":"2",
+        "parent":"02",
+        "chldren":true
     },
     {
         "codigo":"0301",
         "titulo":"Ajuste por Inflacion del Balance General",
-        "order":"0"
+        "order":"0",
+        "parent":"03",
+        "chldren":true
     },
     {
         "codigo":"0302",
         "titulo":"Beneficios Tributarios",
-        "order":"0"
+        "order":"0",
+        "parent":"03",
+        "chldren":true
     },
     {
         "codigo":"0303",
         "titulo":"Comprobantes de Pago",
-        "order":"0"
+        "order":"0",
+        "parent":"03",
+        "chldren":true
     },
     {
         "codigo":"0401",
         "titulo":"Ley Procedimiento Administrativo General     Derogado DS 004-2019-JUS",
-        "order":"0"
+        "order":"0",
+        "parent":"04",
+        "chldren":true
     },
     {
         "codigo":"0402",
         "titulo":"Ley del Silencio Administrativo      Derogado",
-        "order":"0"
+        "order":"0",
+        "parent":"04",
+        "chldren":true
     },
     {
         "codigo":"0403",
         "titulo":"TUO Ley del Procedimiento Administ. General",
-        "order":"0"
+        "order":"0",
+        "parent":"04",
+        "chldren":true
     },
     {
         "codigo":"0512",
         "titulo":"Adjudicacion bienes inmuebles al Gobierno Central",
-        "order":"0"
+        "order":"0",
+        "parent":"05",
+        "chldren":true
     },
     {
         "codigo":"0513",
         "titulo":"Aplicación de la norma anti-elusiva",
-        "order":"0"
+        "order":"0",
+        "parent":"05",
+        "chldren":true
     },
     {
         "codigo":"0501",
         "titulo":"Codigo Tributario",
-        "order":"0"
+        "order":"0",
+        "parent":"05",
+        "chldren":true
     },
     {
         "codigo":"010278",
         "titulo":"Acuerdo Marrakech",
-        "order":"0"
+        "order":"0",
+        "parent":"0102",
+        "chldren":true
     },
     {
         "codigo":"010259",
         "titulo":"Adm. Aduaneras y/o Puestos Control en Fronteras",
-        "order":"0"
+        "order":"0",
+        "parent":"0102",
+        "chldren":true
     },
     {
         "codigo":"010320",
         "titulo":"Actividades Mineras Exploracion, Explotacion y Recursos Naturales",
-        "order":"0"
+        "order":"0",
+        "parent":"0103",
+        "chldren":true
     },
     {
         "codigo":"010301",
         "titulo":"Acuerdo de Valoracion Segun la O.M.C.",
-        "order":"0"
+        "order":"0",
+        "parent":"0103",
+        "chldren":true
     },
     {
         "codigo":"050104",
         "titulo":"Decreto Legislativo - Codigo Tributario",
-        "order":"2"
+        "order":"2",
+        "parent":"0501",
+        "chldren":true
     },
     {
         "codigo":"050103",
         "titulo":"TUO Codigo Tributario",
-        "order":"3"
+        "order":"3",
+        "parent":"0501",
+        "chldren":true
     }
  
  ]
